@@ -1,0 +1,341 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    pad: 0;
+    max-width: 12000px;
+    overflow-x: hidden;
+    
+}
+
+.bar{
+    background-color: #b6851ac9 ;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: solid black 1px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+
+}
+.logo{
+    width: 25%;
+    
+}
+.logo img{
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    z-index:100 ;
+    
+    
+    
+    
+}
+
+.secc{
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+    
+    
+       
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    
+}
+
+a:nth-child(1){
+
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.extra{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+.extra img{
+    width: 30px ;
+    height: 30px;
+    margin: auto 5px;
+    
+
+}
+.extra img:nth-child(2){
+    margin-right: 10%;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    position: relative;   
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fondo img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.titulo{
+    width: 100%;
+    position: relative;
+    font-family: "Puppies Play", cursive;
+    background: linear-gradient(to right, #FFDA7B, #605741); /* Gradiente de rojo a amarillo */
+    -webkit-background-clip: text; /* Clipa el fondo al texto (Chrome/Safari) */
+    -webkit-text-fill-color: transparent;
+    line-height: 0.6; /* Ajusta el interlineado si es necesario */
+    font-size: 190px;
+    text-align: center;
+}
+
+.inter1{
+    height: 100px;
+    width: 100%;
+    background-color: #605741;
+    
+   
+}
+
+
+.panaderia{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    background-image: url('/VARIOS/Panaderia/img/fondoPan.png'); /* Imagen de fondo */
+    
+    
+    
+}
+
+.tituloSec{
+
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+
+.tituloSec h1{
+    font-family: "Quintessential";
+    border-bottom: solid black 2px;
+    display: inline-block;
+    line-height: 1;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+   
+
+    
+    
+}
+
+
+.producto{
+    border: solid 2px black;
+    width: 300px;
+    height: 480px;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    background-color: #a78f614d;
+    float: left;
+    text-align: center;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.producto img:first-child{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.producto p:nth-of-type(1){
+    text-align: left;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    float:left;
+    font-family: "PT Serif Caption";
+    
+}
+
+.producto p:nth-of-type(2){
+    
+    float: left;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: "Quintessential";
+    
+}
+.producto p:nth-of-type(3){
+    clear: left;
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-family: "Quintessential";
+}
+
+.producto a{
+    padding: 0;
+    float: left;
+    margin-left: 30px;
+    font-size: 17px;
+    color: #563F0C;
+    text-decoration: underline;
+
+}
+.producto img:last-child{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 120px;
+    
+    
+    
+}
+
+
+
+
+
+
+.bolleria{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    background-image: url('/VARIOS/Panaderia/img/fondoPan.png'); /* Imagen de fondo */
+    
+    
+    
+}
+.empanadas{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-image: url('/VARIOS/Panaderia/img/fondoPan.png'); /* Imagen de fondo */
+    
+    
+    
+}
+
+.productos2{
+    width: 80%;
+    box-sizing: border-box;
+    height: 100%;
+    margin: auto;
+}
+
+.productos{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.productos3{
+    width: 80%;
+    box-sizing: border-box;
+    height: 70%;
+    margin: auto;
+}
+
+
+.SobreN{
+    background-image: url('/VARIOS/Panaderia/img/fondoPan.png');
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+.SNcontent{
+    margin:auto;
+    width: 80%;
+    height: 70%;
+    margin-top: 80px;
+    
+
+}
+
+.horno{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.horno img{
+    width: 100%;
+    height: 100%
+}
+.info{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: 20%;
+    border: 2px solid black;
+    
+
+    
+}
+
+.tituloSecSN{
+
+    padding-top: 50px;
+    font-size: 50px;
+    
+    text-align: center; 
+}
+
+.tituloSecSN h1{
+    font-family: "Quintessential";
+    border-bottom: solid black 2px;
+    display: inline-block;
+    line-height: 1;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+   
+
+    
+    
+}
